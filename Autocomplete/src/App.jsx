@@ -1,11 +1,11 @@
 import React from "react";
-import SearchBox from "./SearchBox";
+import Searchbar from "./Searchbar.jsx";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Search</h1>
-      <SearchBox />
+      <Searchbar />
     </div>
   );
 };
